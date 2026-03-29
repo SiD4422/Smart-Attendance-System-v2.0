@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Data — excluded from repo (auto-generated at runtime)
+data/
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Face images & trained models (privacy + size)
+data/faces/
+data/models/
+
+# Exports
+data/exports/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Secrets / config overrides
+.env
+secrets.py
+
+# Assets (add your own icons)
+assets/icons/*.jpg
+assets/icons/*.png

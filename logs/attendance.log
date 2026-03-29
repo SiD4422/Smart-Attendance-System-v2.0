@@ -1,0 +1,113 @@
+2026-01-06 21:14:31,607 - database - INFO - Database initialized successfully
+2026-01-06 21:14:43,577 - database - INFO - Database initialized successfully
+2026-01-06 21:14:51,018 - pages.records_page - INFO - Loaded 0 records
+2026-01-08 19:16:13,963 - database - INFO - Database initialized successfully
+2026-01-08 19:16:14,514 - pages.records_page - INFO - Loaded 0 records
+2026-01-08 19:17:24,512 - database - ERROR - Database transaction rolled back: NOT NULL constraint failed: attendance.user_id
+2026-01-08 19:17:24,513 - root - ERROR - Error in mark_attendance: NOT NULL constraint failed: attendance.user_id
+Traceback (most recent call last):
+  File "C:\Users\spart\Desktop\attendance v2\smart_attendance_v2_complete\smart_attendance_upgraded\utils.py", line 290, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\spart\Desktop\attendance v2\smart_attendance_v2_complete\smart_attendance_upgraded\database.py", line 339, in mark_attendance
+    cur.execute("""
+    ~~~~~~~~~~~^^^^
+        INSERT INTO attendance
+        ^^^^^^^^^^^^^^^^^^^^^^
+        (user_id, name, date, time, confidence, location, device_id)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        VALUES (?, ?, ?, ?, ?, ?, ?)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    """, (user_id, name, date, time, confidence, location, device_id))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: NOT NULL constraint failed: attendance.user_id
+2026-01-08 19:19:48,334 - database - INFO - User registered/updated: noo (noo_001)
+2026-01-08 19:20:09,705 - database - INFO - Database initialized successfully
+2026-01-08 19:20:10,556 - pages.records_page - INFO - Loaded 0 records
+2026-01-08 19:20:20,223 - database - INFO - Attendance marked: noo at 19:20:20 (confidence: None)
+2026-01-08 19:20:20,311 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:20,771 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:20,946 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:21,657 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:21,710 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:21,774 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:21,839 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:22,034 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:22,370 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:22,450 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:22,715 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:22,842 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:24,347 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:24,759 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:24,818 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:24,963 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:25,068 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:25,395 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:25,608 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:25,833 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:25,892 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:25,951 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:26,026 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:26,127 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:26,215 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:26,308 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:27,449 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:27,831 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:28,737 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:29,116 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:29,377 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:29,476 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:29,785 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:29,896 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:30,040 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:31,438 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:31,965 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:32,276 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:32,390 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:32,479 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:32,585 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:32,672 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:34,980 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:37,961 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:39,100 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:39,163 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:39,273 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:39,513 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:39,859 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:40,064 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:40,196 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:40,929 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:41,049 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:41,125 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:41,220 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:41,442 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:41,512 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:41,600 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:42,132 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:42,217 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:42,270 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:42,448 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:42,529 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:42,618 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:42,738 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:42,919 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:43,268 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:43,525 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:43,676 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:43,787 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:43,855 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:43,944 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:44,058 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:44,137 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:44,285 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:44,711 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:44,772 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:44,888 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:44,948 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:45,669 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:45,724 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:45,801 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:45,944 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:46,379 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-01-08 19:20:46,471 - database - INFO - Attendance already marked for noo on 2026-01-08
+2026-03-30 01:04:23,674 - database - INFO - Database initialized successfully
+2026-03-30 01:04:24,928 - pages.records_page - INFO - Loaded 1 records
