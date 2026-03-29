@@ -12,7 +12,13 @@ A real-time face recognition attendance system built with Python, featuring a mu
 
 ## 📸 Screenshots
 
-> *(Add screenshots of your app here — dashboard, login screen, attendance marking)*
+> *(
+> <img width="1919" height="1079" alt="Screenshot 2026-03-30 013124" src="https://github.com/user-attachments/assets/30d9cee3-521b-46fe-acdc-155f62289e0a" />
+<img width="1919" height="1079" alt="Screenshot 2026-03-30 013124" src="https://github.com/user-attachments/assets/77f6cdcd-e12f-413d-93d0-ce92adf1e878" />
+> <img width="1904" height="1074" alt="Screenshot 2026-03-30 013214" src="https://github.com/user-attachments/assets/7bbb8cac-7181-4180-b2fd-aafffaf5ad99" />
+<img width="1919" height="1079" alt="Screenshot 2026-03-30 013134" src="https://github.com/user-attachments/assets/592458b0-ef7d-4eec-8715-119e1d78c652" />
+
+)*
 
 ---
 
